@@ -1,16 +1,18 @@
 h1 {
     font-size: 3em;
-    color: #1f75ff;
     font-family: Helvetica;
+    text-align: center;
+    margin-bottom: -5px;
   }
   
   div {
-    border: 1px solid;
-    padding: 1%
+    padding: 1%;
   }
   
   #byline {
     font-size: 1.1em;
+    font-family: Helvetica;
+    text-align: center;
   }
   
   p {
@@ -19,29 +21,22 @@ h1 {
     padding-bottom: 20px;
     margin-bottom: -20px;
   }
+
   
-  .img-container {
-    width: 100%;
-  
-  }
-  
+ #graph {
+  width: 50%;
+  margin: auto;
+ }
+
+ #map {
+  width: 30%;
+  margin: auto;
+ }
+ 
   img {
     margin: auto;
     margin-top: 10px;
     display: block;
-  }
-  
-  .cutline {
-    font-size: 14px;
-    text-align: center;
-  }
-  
-  #contact {
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-    font-style: italic;
-    text-align: center;
   }
   
   /* responsive design */
@@ -52,6 +47,6 @@ h1 {
   
   @media (orientation: portrait) {
     #content {
-      width: 100%;
+      width: 50%;
     }
   }
