@@ -18,25 +18,9 @@ h1 {
   p {
     font-size: 1.3em;
     line-height: 1.3em;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     margin-bottom: -20px;
-  }
-
-  
- #graph {
-  width: 50%;
-  margin: auto;
- }
-
- #map {
-  width: 30%;
-  margin: auto;
- }
- 
-  img {
-    margin: auto;
-    margin-top: 10px;
-    display: block;
+    border: 1px solid;
   }
   
   /* responsive design */
