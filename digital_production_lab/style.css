@@ -3,3 +3,9 @@ img {
     margin-top: 10px;
     display: block;
   }
+
+  /* rules for a div container to center an iframe */
+.embed {
+  display: flex;
+  justify-content: center;
+}
