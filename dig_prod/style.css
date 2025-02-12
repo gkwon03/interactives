@@ -1,5 +1,15 @@
+h1 {
+  font-size: 3em;
+}
+
+#content {
+  width: 75%;
+  margin: auto;
+}
+
 img {
     margin: auto;
     margin-top: 10px;
     display: block;
   }
+
