@@ -9,7 +9,12 @@ h1 {
 
 img {
     margin: auto;
-    margin-top: 10px;
     display: block;
-  }
+}
 
+#reflection {
+  border: 2px solid lightblue;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
