@@ -1,0 +1,35 @@
+h1 {
+    font-size: 3em;
+    font-family: Helvetica;
+    text-align: center;
+    margin-bottom: -5px;
+  }
+  
+  div {
+    padding: 1%;
+  }
+  
+  #byline {
+    font-size: 1.1em;
+    font-family: Helvetica;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding-bottom: 40px;
+    margin-bottom: -20px
+  }
+  
+  /* responsive design */
+  #content {
+    width: 50%;
+    margin: auto;
+  }
+  
+  @media (orientation: portrait) {
+    #content {
+      width: 50%;
+    }
+  }
