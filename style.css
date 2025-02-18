@@ -10,21 +10,36 @@ h1 {
   }
   
   #byline {
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-family: Helvetica;
     text-align: center;
   }
   
   p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1.3em;
     padding-bottom: 20px;
     margin-bottom: -20px
   }
+
+  #nav-bar {
+    text-align: center;
+    margin: auto;
+    border: 3px solid; 
+    border-color: blue;
+    width: 75%;
+  }
+
+  .nav-item{
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid;
+  }
   
   /* responsive design */
   #content {
-    width: 50%;
+    width: 60%;
+    margin: auto;
   }
   
   @media (orientation: portrait) {
