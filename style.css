@@ -18,14 +18,13 @@ h1 {
   p {
     font-size: 1.3em;
     line-height: 1.3em;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     margin-bottom: -20px
   }
   
   /* responsive design */
   #content {
     width: 50%;
-    margin: auto;
   }
   
   @media (orientation: portrait) {
