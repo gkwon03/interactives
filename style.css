@@ -44,11 +44,21 @@ img {
   width: 75%;
   display: flex;
   justify-content: space-evenly;
-
 }
 
 #nav-bar a {
   color: black;
+}
+
+#landing-bar {
+  background-color: white;
+  margin: auto;
+  border: 3px double black;
+}
+
+#landing-bar a {
+  color: black;
+  font-size: 14px;
 }
 
 .row {
