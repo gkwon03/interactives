@@ -1,54 +1,77 @@
 h1 {
-    font-size: 3em;
-    font-family: Helvetica;
-    text-align: center;
-    margin-bottom: -5px;
-  }
-  
-  div {
-    padding: 1%;
-  }
-  
-  #byline {
-    font-size: 1.5em;
-    font-family: Helvetica;
-    text-align: center;
-  }
-  
-  p {
-    font-size: 1.2em;
-    line-height: 1.3em;
-    padding-bottom: 20px;
-    margin-bottom: -20px
-  }
+  font-size: 3em;
+  font-family: Helvetica;
+  text-align: center;
+  margin-bottom: -5px;
+}
 
-  #nav-bar {
-    text-align: center;
-    margin: auto;
-    border: 3px solid; 
-    border-color: blue;
-    width: 75%;
-  }
-
-  .nav-item{
-    padding-left: 5%;
-    padding-right: 5%;
-    border: 1px solid;
-  }
+#head {
+  padding: 15%;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
   
+div {
+  padding: 1%;
+}
+  
+#byline {
+  font-size: 1.5em;
+  font-family: Helvetica;
+  text-align: center;
+}
+  
+p {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  padding-bottom: 20px;
+  margin-bottom: -20px
+}
+
+#nav-bar {
+  text-align: center;
+  margin: auto;
+  border: 3px solid; 
+  border-color: blue;
+  width: 75%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  margin: auto;
+  max-width: 60%;
+  align-content: auto;
+  overflow: hidden;
+}
+
+
+
+.column {
+  background: #f8f9fa;
+  padding: 10%;
+  border:#1abc9c;
+  text-align: center;
+}
+
   /* responsive design */
+#content {
+  width: 60%;
+  margin: auto;
+}
+
+@media (orientation: portrait) {
   #content {
-    width: 60%;
-    margin: auto;
+    width: 50%;
   }
-  
-  @media (orientation: portrait) {
-    #content {
-      width: 50%;
-    }
+  .row{
+    flex-direction: column;
   }
-
-
+}
   /* this is my css comment */
 
   
