@@ -31,31 +31,41 @@ p {
   margin-bottom: -20px
 }
 
+img {
+  padding: 10px;
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
 #nav-bar {
   text-align: center;
   margin: auto;
-  border: 3px solid; 
-  border-color: blue;
   width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+#nav-bar a {
+  color: black;
 }
 
 .row {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 10px;
+  max-width: 75%;
   margin: auto;
-  max-width: 60%;
-  align-content: auto;
-  overflow: hidden;
+  padding: 10px;
 }
-
-
 
 .column {
   background: #f8f9fa;
-  padding: 10%;
-  border:#1abc9c;
+  border: 5px solid #1abc9c; 
   text-align: center;
+  min-width: 50%; 
 }
 
   /* responsive design */
@@ -71,7 +81,5 @@ p {
   .row{
     flex-direction: column;
   }
-}
-  /* this is my css comment */
 
-  
+  /* this is my css comment */
