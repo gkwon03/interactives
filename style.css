@@ -61,7 +61,6 @@ img {
   font-size: 14px;
 }
 
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -77,6 +76,11 @@ img {
   border: 5px solid #1abc9c; 
   text-align: center;
   min-width: 50%; 
+}
+
+.iframe-container {
+  justify-content: center;
+  margin-bottom: -30%;
 }
 
   /* responsive design */
