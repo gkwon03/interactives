@@ -24,7 +24,7 @@ div {
 }
   
 p {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Times New Roman', Times, serif;
   font-size: 1.2em;
   line-height: 1.3em;
   padding-bottom: 20px;
@@ -79,8 +79,10 @@ img {
 }
 
 .iframe-container {
-  justify-content: center;
   margin-bottom: -30%;
+  width: 60%;
+  margin: auto;
+  jus
 }
 
   /* responsive design */
