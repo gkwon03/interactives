@@ -1,3 +1,4 @@
+/* heading style */
 h1 {
   font-size: 3em;
   font-family: Helvetica;
@@ -5,6 +6,7 @@ h1 {
   margin-bottom: -5px;
 }
 
+/* head section style */
 #head {
   padding: 15%;
   text-align: center;
@@ -12,17 +14,20 @@ h1 {
   color: white;
   font-size: 30px;
 }
-  
+
+/* div style */
 div {
   padding: 1%;
 }
-  
+
+/* byline style */
 #byline {
   font-size: 1.5em;
   font-family: Helvetica;
   text-align: center;
 }
-  
+
+/* paragraph style */
 p {
   font-family:'Times New Roman', Times, serif;
   font-size: 1.2em;
@@ -31,6 +36,7 @@ p {
   margin-bottom: -20px
 }
 
+/* image style */
 img {
   padding: 10px;
   width: 60%;
@@ -38,6 +44,7 @@ img {
   margin: auto;
 }
 
+/* navigation bar style */
 #nav-bar {
   text-align: center;
   margin: auto;
@@ -46,21 +53,25 @@ img {
   justify-content: space-evenly;
 }
 
+/* links in navigation bar style */
 #nav-bar a {
   color: black;
 }
 
+/* landing bar style */
 #landing-bar {
   background-color: white;
   margin: auto;
   border: 3px double black;
 }
 
+/* link in landing bar style */
 #landing-bar a {
   color: black;
   font-size: 14px;
 }
 
+/* row style */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -71,6 +82,7 @@ img {
   padding: 10px;
 }
 
+/* column style */
 .column {
   background: #f8f9fa;
   border: 5px solid #1abc9c; 
@@ -78,18 +90,20 @@ img {
   min-width: 50%; 
 }
 
+/* iframe container style */
 .iframe-container {
   margin-bottom: -30%;
   width: 60%;
   margin: auto;
 }
 
-  /* responsive design */
+/* responsive design */
 #content {
   width: 60%;
   margin: auto;
 }
 
+/* media query for portrait orientation */
 @media (orientation: portrait) {
   #content {
     width: 50%;
@@ -98,4 +112,3 @@ img {
     flex-direction: column;
   }
 }
-  /* this is my css comment */
