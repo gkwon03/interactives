@@ -36,6 +36,17 @@ p {
   margin-bottom: -20px
 }
 
+/* caption style */
+figcaption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/* credit within caption style */
+.credit {
+  font-size: 0.7em;
+}
+
 /* image style */
 img {
   padding: 10px;
