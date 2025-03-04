@@ -27,6 +27,10 @@ div {
   text-align: center;
 }
 
+#work {
+  text-align: center;
+}
+
 /* paragraph style */
 p {
   font-family:'Times New Roman', Times, serif;
@@ -98,7 +102,7 @@ img {
   background: #f8f9fa;
   border: 5px solid #1abc9c; 
   text-align: center;
-  min-width: 50%; 
+  width: 60%; 
 }
 
 /* iframe container style */
